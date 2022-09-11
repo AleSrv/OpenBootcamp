@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    font-size: 2rem;
+}
+
+.barra{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: grey;
+    padding: 1rem;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-grow: 6;
+}
+
+.elemento{
+    color: black;
+    border: 1px black solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 640px){
+    body{
+        flex-direction: column-reverse;
+    }
+    .barra{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
