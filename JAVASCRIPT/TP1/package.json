@@ -1,19 +1,18 @@
 {
-  "name": "tarea1",
+  "name": "tp1",
   "version": "1.0.0",
-  "description": "primera tarea de Javascript con Node",
+  "description": "practicando node",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "mostrar" : "node mensaje.js",
+    "mensaje": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "trabajo",
-    "1",
-    "crear",
-    "script"
+    "primero",
+    "node",
+    "npm"
   ],
-  "author": "Ale F",
+  "author": "ale f",
   "license": "ISC"
 }
+
