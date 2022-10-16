@@ -6,7 +6,9 @@ let estudianteMinus = estudiante.toLowerCase();
 let num_letras = estudiante.length;
 let letraNombre= nombre[0];
 let letraApellido= ape[ape.length -1];
-let sinespacio= estudiante.trim();
+// Todas válidas
+// const estudianteSinEspacios = estudiante.replace(" ", "")
+const estudianteSinEspacios = estudiante.replace(/ /g, "")
 let estaNombre = estudiante.includes(nombre);
 
 //OUTPUTS:
