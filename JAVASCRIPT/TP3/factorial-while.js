@@ -1,5 +1,5 @@
 let i= 10;
-var factorial=1;
+let factorial=1;
 
 while(i>0){
     factorial *=i;
