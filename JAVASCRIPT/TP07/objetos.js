@@ -18,5 +18,5 @@ const lista = [
     {nombre: "Daniel", apellido: "San Martin" , edad:37, altura: 1.85, eresDesarrollador: false},
 ]
 
-const ordenada = lista.sort((a,b)=>a.edad - b.edad)
+const ordenada = lista.sort((a,b)=>b.edad - a.edad)
 console.log(ordenada)
