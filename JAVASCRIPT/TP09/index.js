@@ -22,7 +22,7 @@ throw new Error("Este es mi mensaje personalizado")
 try {
     miErrorpersonalizado()
 } catch (error) {
-    console.log("Mensaje de consola catch")
+    logger.log("error", error.toString());
 }finally{
     console.log("Hemos terminado")
 }
