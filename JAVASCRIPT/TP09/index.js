@@ -16,7 +16,7 @@ const logger = winston.createLogger({
 });
 
 function miErrorpersonalizado() {
-console.error("Este es mi mensaje personalizado")
+throw new Error("Este es mi mensaje personalizado")
 }
 
 try {
@@ -30,7 +30,7 @@ try {
 try {
     fmiErrorpersonalizado()
 } catch (error) {
-    console.log("Mensaje de consola catch")
+    logger.log("error", error.toString());
 }finally{
     console.log("Hemos terminado")
 }
